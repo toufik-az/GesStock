@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-content-bg font-sans text-encre antialiased;
+  }
+}
+
+/* ── Print styles: 80mm thermal receipt ────────────────────────────────── */
+@media print {
+  body > * { display: none !important; }
+  #receipt-print-root { display: block !important; }
+
+  @page {
+    size: 80mm auto;
+    margin: 4mm;
+  }
+
+  #receipt-print-root {
+    width: 72mm;
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 11px;
+    color: #000;
+    background: #fff;
+  }
+}
