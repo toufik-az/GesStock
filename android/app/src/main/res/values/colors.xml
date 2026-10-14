@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sidebar">#1A1A2E</color>
+    <color name="outline">#E2E6ED</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primaire">#2563EB</color>
+    <color name="primaire_fonce">#1A1A2E</color>
+    <color name="primaire_clair">#DBEAFE</color>
+    <color name="accent">#2563EB</color>
+    <color name="blanc">#FFFFFF</color>
+    <color name="surface_color">#FFFFFF</color>
+    <color name="rouge">#C62828</color>
+    <color name="rouge_clair">#FDECEA</color>
+    <color name="vert">#1B6B3A</color>
+    <color name="vert_clair">#E0F2EA</color>
+    <color name="gris">#6B7280</color>
+    <color name="texte">#111827</color>
+    <color name="fond">#F8F9FA</color>
+    <color name="ic_launcher_background">#1A1A2E</color>
+</resources>

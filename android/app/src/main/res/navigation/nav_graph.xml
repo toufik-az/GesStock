@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.gesstock.app.ui.dashboard.DashboardFragment"
+        android:label="@string/accueil" />
+
+    <fragment
+        android:id="@+id/produitsFragment"
+        android:name="com.gesstock.app.ui.produits.ProduitsFragment"
+        android:label="@string/produits" />
+
+    <fragment
+        android:id="@+id/produitFormFragment"
+        android:name="com.gesstock.app.ui.produits.ProduitFormFragment"
+        android:label="@string/ajouter_produit">
+        <argument
+            android:name="produitId"
+            android:defaultValue="-1L"
+            app:argType="long" />
+        <argument
+            android:name="codeBarre"
+            android:defaultValue=""
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.gesstock.app.ui.categories.CategoriesFragment"
+        android:label="@string/categories" />
+
+    <fragment
+        android:id="@+id/caisseFragment"
+        android:name="com.gesstock.app.ui.caisse.CaisseFragment"
+        android:label="@string/caisse" />
+
+    <fragment
+        android:id="@+id/recuFragment"
+        android:name="com.gesstock.app.ui.caisse.RecuFragment"
+        android:label="@string/recu_vente">
+        <argument
+            android:name="venteId"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/historiqueFragment"
+        android:name="com.gesstock.app.ui.historique.HistoriqueFragment"
+        android:label="@string/historique" />
+
+    <fragment
+        android:id="@+id/alertesFragment"
+        android:name="com.gesstock.app.ui.alertes.AlertesFragment"
+        android:label="@string/alertes" />
+
+    <fragment
+        android:id="@+id/receptionFragment"
+        android:name="com.gesstock.app.ui.reception.ReceptionFragment"
+        android:label="@string/reception" />
+
+    <fragment
+        android:id="@+id/parametresFragment"
+        android:name="com.gesstock.app.ui.parametres.ParametresFragment"
+        android:label="@string/reglages" />
+</navigation>

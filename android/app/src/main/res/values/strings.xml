@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GesStock</string>
+
+    <!-- Connexion -->
+    <string name="connexion">Connexion</string>
+    <string name="sous_titre_app">Gestion de stock pour votre magasin</string>
+    <string name="je_suis">Je suis</string>
+    <string name="aide_connexion">Le PIN caissier est créé par le gérant dans Réglages.</string>
+    <string name="role_manager">Gérant</string>
+    <string name="role_caissier">Caissier</string>
+    <string name="pin">Code PIN</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="pin_incorrect">Code PIN incorrect</string>
+    <string name="compte_caissier_inexistant">Aucun compte caissier. Créez-le dans Paramètres.</string>
+    <string name="creation_compte_caissier">Créer le compte caissier</string>
+    <string name="msg_proposition_caissier">Voulez-vous créer maintenant un compte pour le caissier ?</string>
+    <string name="plus_tard">Plus tard</string>
+    <string name="msg_creation_caissier">Entrez le PIN du gérant pour autoriser, puis choisissez un PIN pour le caissier.</string>
+    <string name="pin_gerant">PIN du gérant</string>
+    <string name="pin_caissier_nouveau">Nouveau PIN du caissier</string>
+    <string name="pin_gerant_incorrect">PIN du gérant incorrect</string>
+    <string name="compte_caissier_cree">Compte caissier créé, connectez-vous</string>
+    <string name="creation_compte_manager">Bienvenue !</string>
+    <string name="msg_creation_manager">Créez le code PIN du gérant (4 à 6 chiffres) pour commencer.</string>
+    <string name="creer">Créer</string>
+    <string name="pin_invalide">Le PIN doit contenir 4 à 6 chiffres</string>
+
+    <!-- Menu -->
+    <string name="accueil">Accueil</string>
+    <string name="tableau_de_bord">Tableau de bord</string>
+    <string name="produits">Produits</string>
+    <string name="categories">Catégories</string>
+    <string name="caisse">Caisse</string>
+    <string name="historique">Historique des ventes</string>
+    <string name="ventes">Ventes</string>
+    <string name="reglages">Réglages</string>
+    <string name="alertes">Alertes stock</string>
+    <string name="reception">Réception marchandise</string>
+    <string name="rapports">Rapports</string>
+    <string name="parametres">Paramètres</string>
+    <string name="deconnexion">Déconnexion</string>
+
+    <!-- Tableau de bord -->
+    <string name="ventes_du_jour">Ventes du jour</string>
+    <string name="transactions">Transactions</string>
+    <string name="produits_en_alerte">Produits en alerte</string>
+    <string name="dernieres_ventes">Dernières ventes</string>
+    <string name="voir_tout">Voir tout</string>
+    <string name="aucune_vente">Aucune vente pour le moment</string>
+    <string name="nouvelle_vente">Nouvelle vente</string>
+
+    <!-- Produits -->
+    <string name="rechercher_produit">Rechercher (nom ou code-barres)…</string>
+    <string name="ajouter_produit">Ajouter un produit</string>
+    <string name="modifier_produit">Modifier le produit</string>
+    <string name="nom_produit">Nom du produit</string>
+    <string name="code_barre">Code-barres</string>
+    <string name="scanner">Scanner</string>
+    <string name="categorie">Catégorie</string>
+    <string name="sans_categorie">Sans catégorie</string>
+    <string name="nouvelle_categorie">Nouvelle catégorie</string>
+    <string name="prix_achat">Prix d\'achat (DA)</string>
+    <string name="prix_vente">Prix de vente (DA)</string>
+    <string name="quantite">Quantité en stock</string>
+    <string name="quantite_min">Quantité minimale (alerte)</string>
+    <string name="unite">Unité</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="confirmer_suppression">Confirmer la suppression</string>
+    <string name="supprimer_produit_question">Voulez-vous vraiment supprimer ce produit ?</string>
+    <string name="annuler">Annuler</string>
+    <string name="champ_obligatoire">Champ obligatoire</string>
+    <string name="code_barre_existant">Ce code-barres existe déjà pour un autre produit</string>
+    <string name="produit_enregistre">Produit enregistré</string>
+
+    <!-- Catégories -->
+    <string name="nom_categorie">Nom de la catégorie</string>
+    <string name="ajouter_categorie">Ajouter une catégorie</string>
+    <string name="renommer">Renommer</string>
+    <string name="supprimer_categorie_question">Supprimer cette catégorie ? Les produits associés seront conservés.</string>
+    <string name="nb_produits">%d produit(s)</string>
+    <string name="aucune_categorie">Aucune catégorie</string>
+
+    <!-- Caisse -->
+    <string name="saisir_code">Code-barres…</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="total">Total</string>
+    <string name="valider_vente">Valider la vente</string>
+    <string name="panier_vide">Le panier est vide</string>
+    <string name="stock_insuffisant">Stock insuffisant</string>
+    <string name="produit_introuvable">Produit introuvable</string>
+    <string name="creer_produit_rapide">Créer rapidement</string>
+    <string name="prix_achat_da">Prix d\'achat (DA)</string>
+    <string name="prix_vente_da">Prix de vente (DA)</string>
+    <string name="nom_produit_court">Nom du produit</string>
+    <string name="produit_cree_ajoute">Produit créé et ajouté au panier</string>
+    <string name="produit_introuvable_question">Ce code-barres n\'existe pas. Voulez-vous ajouter ce produit ?</string>
+    <string name="confirmer_vente">Confirmer la vente ?</string>
+    <string name="vente_enregistree">Vente enregistrée</string>
+    <string name="erreur_enregistrement">Erreur lors de l\'enregistrement. Veuillez réessayer.</string>
+    <string name="oui">Oui</string>
+    <string name="encaisser">Encaisser</string>
+    <string name="montant_recu">Montant reçu (DA)</string>
+    <string name="monnaie_a_rendre">Monnaie à rendre</string>
+    <string name="montant_insuffisant">Montant reçu insuffisant</string>
+
+    <!-- Reçu -->
+    <string name="recu_vente">Reçu de vente</string>
+    <string name="partager">Partager</string>
+    <string name="merci">Merci de votre visite !</string>
+
+    <!-- Historique -->
+    <string name="aucune_vente_hist">Aucune vente enregistrée</string>
+
+    <!-- Alertes -->
+    <string name="aucune_alerte">Aucun produit en alerte 👍</string>
+    <string name="reapprovisionner">Réapprovisionner</string>
+
+    <!-- Réception -->
+    <string name="fournisseur">Fournisseur</string>
+    <string name="sans_fournisseur">Sans fournisseur</string>
+    <string name="valider_reception">Valider la réception</string>
+    <string name="reception_enregistree">Réception enregistrée, stock mis à jour</string>
+    <string name="choisir_produit">Choisir un produit</string>
+    <string name="aucun_produit">Aucun produit</string>
+    <string name="liste_vide_reception">Scannez ou choisissez les produits reçus</string>
+    <string name="confirmer_reception_msg">Confirmer la réception de %d produit(s) ?</string>
+    <string name="confirmer">Confirmer</string>
+    <string name="supprimer_fournisseur_question">Supprimer le fournisseur « %s » ?</string>
+
+    <!-- Rapports -->
+    <string name="aujourdhui">Aujourd\'hui</string>
+    <string name="sept_jours">7 jours</string>
+    <string name="trente_jours">30 jours</string>
+    <string name="chiffre_affaires">Chiffre d\'affaires</string>
+    <string name="nombre_ventes">Nombre de ventes</string>
+    <string name="marge">Marge bénéficiaire</string>
+    <string name="top_produits">Top 5 produits</string>
+    <string name="graphiques">Graphiques</string>
+    <string name="ca_par_jour">Chiffre d\'affaires par catégorie</string>
+    <string name="repartition_produits">Répartition des ventes par produit</string>
+    <string name="ventes_par_jour">Ventes par jour</string>
+    <string name="aucune_donnee">Aucune donnée pour cette période</string>
+
+    <!-- Paramètres -->
+    <string name="nom_magasin">Nom du magasin</string>
+    <string name="gerer_categories">Gérer les catégories</string>
+    <string name="charger_demo">Charger données de démo</string>
+    <string name="confirmer_demo">Charger les données de démonstration ? Des produits, catégories et ventes exemples seront ajoutés.</string>
+    <string name="demo_chargee">Données de démonstration chargées !</string>
+    <string name="enregistre">Enregistré</string>
+    <string name="changer_pin_manager">Changer le PIN du gérant</string>
+    <string name="changer_pin_caissier">Définir / changer le PIN du caissier</string>
+    <string name="nouveau_pin">Nouveau PIN (4 à 6 chiffres)</string>
+    <string name="fournisseurs">Fournisseurs</string>
+    <string name="ajouter_fournisseur">Ajouter un fournisseur</string>
+    <string name="nom_fournisseur">Nom du fournisseur</string>
+    <string name="telephone">Téléphone</string>
+    <string name="aucun_fournisseur">Aucun fournisseur</string>
+
+    <!-- Scanner -->
+    <string name="scanner_pointer">Pointez la caméra vers le code-barres</string>
+    <string name="permission_camera_refusee">Permission caméra refusée</string>
+    <string name="terminer_scan">Terminer (%d)</string>
+    <string name="nb_codes_scannés">%d code(s) scanné(s)</string>
+</resources>

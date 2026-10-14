@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GesStock" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaire</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primaire_clair</item>
+        <item name="colorOnPrimaryContainer">@color/primaire_fonce</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryContainer">@color/primaire_clair</item>
+        <item name="colorOnSecondaryContainer">@color/primaire</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="materialCardViewStyle">@style/Widget.GesStock.Card</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.GesStock.OutlinedButton</item>
+        <item name="colorSurface">@color/surface_color</item>
+        <item name="colorOnSurface">@color/texte</item>
+        <item name="colorOnSurfaceVariant">@color/gris</item>
+        <item name="android:colorBackground">@color/fond</item>
+        <item name="android:textColorHint">@color/gris</item>
+        <item name="android:statusBarColor">@color/primaire_fonce</item>
+        <item name="textInputStyle">@style/Widget.GesStock.TextInput</item>
+        <item name="materialButtonStyle">@style/Widget.GesStock.Button</item>
+    </style>
+
+    <!-- Champs de saisie bien visibles : fond blanc + contour bleu + gros texte -->
+    <style name="Widget.GesStock.TextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/surface_color</item>
+        <item name="boxStrokeColor">@color/primaire</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="hintTextColor">@color/primaire</item>
+        <item name="android:textColorHint">@color/gris</item>
+    </style>
+
+    <!-- Boutons plus grands et lisibles -->
+    <style name="Widget.GesStock.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Widget.GesStock.OutlinedButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="strokeColor">@color/outline</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Widget.GesStock.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/surface_color</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/outline</item>
+    </style>
+    <style name="TextAppearance.GesStock.Toolbar" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.GesStock.Navigation" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textSize">11sp</item>
+    </style>
+</resources>

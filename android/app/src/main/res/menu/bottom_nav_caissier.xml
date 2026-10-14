@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/caisseFragment"
+        android:icon="@drawable/ic_cart"
+        android:title="@string/caisse" />
+    <item
+        android:id="@+id/historiqueFragment"
+        android:icon="@drawable/ic_history"
+        android:title="@string/ventes" />
+</menu>

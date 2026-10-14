@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:focus-visible { outline: 2px solid #2563EB; outline-offset: 3px; }
+@media (max-width: 767px) {
+  button, input, select { min-height: 44px; }
+  input, select, textarea { font-size: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+@layer base {
+  body {
+    @apply bg-content-bg font-sans text-encre antialiased;
+  }
+}
+
+/* ── Print styles: 80mm thermal receipt ────────────────────────────────── */
+@media print {
+  body * { visibility: hidden; }
+  #receipt-print-root, #receipt-print-root * { visibility: visible; }
+  #receipt-print-root { position: absolute; top: 0; left: 0; }
+
+  @page {
+    size: 80mm auto;
+    margin: 4mm;
+  }
+
+  #receipt-print-root {
+    width: 72mm;
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 11px;
+    color: #000;
+    background: #fff;
+  }
+}

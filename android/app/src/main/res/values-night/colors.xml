@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaire">#A8C7FA</color>
+    <color name="accent">#A8C7FA</color>
+    <color name="on_primary">#10264D</color>
+    <color name="vert">#81DCA3</color>
+    <color name="rouge">#FFAAA5</color>
+    <color name="outline">#394358</color>
+    <!-- Dark mode overrides -->
+    <color name="surface_color">#202039</color>
+    <color name="fond">#1A1A2E</color>
+    <color name="texte">#F8F9FA</color>
+    <color name="gris">#B0B8C8</color>
+    <color name="rouge_clair">#3A1515</color>
+    <color name="vert_clair">#142419</color>
+    <color name="primaire_clair">#1E3A8A</color>
+</resources>

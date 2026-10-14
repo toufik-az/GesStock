@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build/
+.env
+*.local
+.DS_Store
+*.tsbuildinfo
+dist-*/
+frontend-dist/
+.env.*
+!.env.example
+!.env.*.example
+*.apk
+*.exe
+*.jks
+*.keystore
+/frontend/src/**/*.js
